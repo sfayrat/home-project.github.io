@@ -56,6 +56,7 @@ body {
 	color: #2c71b8;
 	margin: 5px 30px;
 	padding-left: 20px;
+	position: absolute;
 
 }
 .icon {
@@ -72,11 +73,16 @@ body {
 	top: 50%;
 	left: 50%;
 	margin-right: -50%;
-	transform: translate(-50%, -50%) }
+	transform: translate(-50%, -50%)
 }
 .cart {
 	float: right;
 	width: 40px;
 	height: 40px;
 	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5px;
 }
+
