@@ -161,19 +161,7 @@ ul.sub li a:hover {
 	bottom: 1px;
 	left: 10px;
 }
-.test {
-	content:"4";
-	display: block;
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
-	background: #2c71b8;
-	color: #fff;
-	font-size: 12px;
-	position: absolute;
-	left: -10px;
-	top: -10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.slider {
+	height: 400px;
+	background-color: #235a93;
 }
