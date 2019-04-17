@@ -27,6 +27,7 @@ body {
 .col-4 {
 	width: 33.33%;
 	display: inline-block;
+
 }
 .col-6 {
 	width: 50%;
@@ -345,12 +346,14 @@ ul.sub li a:hover {
 .main-contant {
 	width: 100%;
 	float: left;
+
 }
 .favorites {
 	width: 30px;
 	height: 70px;
 	float: right;
 	position: relative;
+	margin-bottom: 10px;
 
 }
 .hart-icon  {
@@ -468,4 +471,26 @@ input#gb-8[type="checkbox"]:checked + label:before
 	font-size: 21px;
 	display: block;
 	color: #235a93;
+}
+.load-more{
+	text-align: center;
+	margin-top: 10px;
+}
+.load-more a {
+	width: 100%;
+	font-size: 36px;
+	color: #fff;
+	text-decoration: none;
+}
+.footer {
+	background-color: rgba(255,255,255,0.75);
+	padding: 24px 0;
+}
+.footer a {
+	color: #2c71b8;
+	text-decoration: none;
+	font-size: 21px;
+}
+.contant {
+	padding-bottom: 90px;
 }
