@@ -78,6 +78,7 @@ input[type="text"] {
 :-ms-input-placeholder      {color:#2c71b8; font-family: 'Roboto', sans-serif ;}
 .search {
 	float: left;
+	position: relative;
 }
 .icon {
 	display: block;
@@ -85,8 +86,8 @@ input[type="text"] {
 	height: 30px;
 	background-color: #2c71b8;
 	position: absolute;
-	right: 195px;
-	top: 34px;
+	top: 10px;
+    right: 5px;
 }
 span.icon-search{
 	background: url(images/search.png) no-repeat;
